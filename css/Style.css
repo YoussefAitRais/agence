@@ -3,3 +3,71 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ------------------------ GLOBAL STYLING ----------------- */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+
+    list-style: none;
+}
+
+.container {
+
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* ------------------------ HEADER STYLING ----------------- */
+
+.header {
+    width: 100%;
+}
+
+.header .navbar {
+
+    background-color: #fdf0ea;
+    padding: 10px 0px;
+}
+
+.header .navbar .nav-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .navbar .nav-wrapper .logo-image {
+    width: 180px;
+}
+
+.header .navbar .nav-wrapper .nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.header .navbar .nav-wrapper .nav-items .nav-link {
+
+    padding: 20px 10px ;
+
+}
+
+.header .navbar .nav-wrapper .nav-items .nav-link.login-link {
+    color: white;
+}
+
+.header .navbar .nav-wrapper .nav-items .nav-link.login {
+    color: white;
+}
+
+.border-rounded{
+
+    background-color: #EB662B;
+    border-radius: 10px;
+    padding: 10px 50px;
+    
+
+}
