@@ -30,7 +30,8 @@ ul {
 .header .navbar {
 
     background-color: #fdf0ea;
-    padding: 10px 0px;
+    padding: 20px 0px;
+    
 }
 
 .header .navbar .nav-wrapper {
@@ -57,6 +58,8 @@ ul {
 
 .header .navbar .nav-wrapper .nav-items .nav-link.login-link {
     color: white;
+    padding: 10px 20px;   
+
 }
 
 .header .navbar .nav-wrapper .nav-items .nav-link.login {
@@ -66,8 +69,11 @@ ul {
 .border-rounded{
 
     background-color: #EB662B;
-    border-radius: 10px;
-    padding: 10px 50px;
-    
+    border-radius: 30px;
 
+}
+
+.hero-sectio .hero-content-wrapper .h1 {
+
+    display: flex;
 }
